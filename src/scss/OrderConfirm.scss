@@ -1,0 +1,179 @@
+.back-headed {
+    height: 46px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    position: relative;
+    background-color: #f8f8f8;
+
+    button {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        width: 22px;
+        height: 22px;
+        background-color: #aaa;
+        border-radius: 22px;
+        background-image: url("../../public/img/icons-png/back-white.png");
+        border: 0 none;
+        background-position: center;
+        background-repeat: no-repeat;
+        outline: none;
+    }
+
+    h3 {
+        width: 100%;
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+        color: #333;
+    }
+}
+
+.order-info {
+    background-color: #fff;
+
+    p {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
+
+        img {
+            border-radius: 22px;
+            width: 26px;
+            height: 26px;
+            vertical-align: middle;
+        }
+
+        b {
+            font-size: 14px;
+            margin-left: 10px;
+            color: #333;
+        }
+    }
+
+    ul {
+        padding-bottom: 7px;
+        background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAKBAMAAACOO0tGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAnUExURf///4u16Oxtbezz/J3B7NDh9vvd3fSmprjS8vGNje57e/jDw/7w8IQ3dnAAAABSSURBVCjPY2CAAG4l7GADVJ4hUBArEIXJJ2HXrw6TZ8auX7ABKs+zCLsBE2AGmGDXLwKT58SuX+sATIEjdgOcYfJF2A1Qg8lz4PCBwWgQUiMIAWCaOFG2MdFRAAAAAElFTkSuQmCC) -7px bottom repeat-x;
+
+        li {
+            padding: 10px 16px 20px 100px;
+            height: 91px;
+            position: relative;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+
+            img {
+                width: 66px;
+                height: 66px;
+                position: absolute;
+                left: 10px;
+                background-color: #ccc;
+                top: 16px;
+            }
+
+            p {
+                height: 25px;
+                line-height: 25px;
+            }
+
+            .p-name {
+                font-size: 13px;
+                font-weight: bolder;
+            }
+            .p-price {
+                color: rgb(71,158,211);
+                font-size: 14px;
+                font-weight: bolder;
+            }
+           
+        }
+    }
+}
+
+.order-set {
+   
+    background-color: #fff;
+
+    p {
+        padding: 6px 0;
+        margin: 0 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    p.order-set-item {
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+        &.p-remark {
+            input {
+                color: #666;
+                font-size: 12px;
+                border: none 0;
+                outline: none;
+            }
+        }
+        span {
+            display: inline-block;
+            width: 80px;
+            color: #666;
+        }
+
+        input,
+        select {
+            padding: 0 3px;
+            box-sizing: border-box;
+            border: 0 none;
+            background-color: #ddd;
+            border-radius: 3px;
+            color: #666;
+            width: 136px;
+            outline: none;
+            height: 26px;
+        }
+    }
+
+    p.order-noti {
+        line-height: 2;
+
+        span {
+            font-size: 13px;
+            font-weight: bolder;
+            display: block;
+        }
+
+        span:nth-child(1) {
+
+            color: #666;
+
+            b {
+                color: rgb(71,158,211);
+                font-size: 14px;
+            }
+        }
+
+        span:nth-child(2) {
+            color: rgb(71,158,211);
+        }
+    }
+
+    p.order-submit {
+        button {
+            width: 100%;
+            box-sizing: border-box;
+            margin: 10px 0;
+            height: 36px;
+            border: 0 none;
+            background-color: rgb(71,158,211);
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+    }
+
+    p:last-child {
+        border-bottom: 0 none;
+    }
+}
